@@ -3,6 +3,7 @@ class LatticeNet < Formula
   homepage "https://github.com/fordz0/lattice"
   version "0.1.12"
   license "GPL-3.0-only"
+  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.arm?
