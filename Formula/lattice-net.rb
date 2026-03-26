@@ -1,17 +1,17 @@
 class LatticeNet < Formula
   desc "Peer-to-peer web protocol CLI and daemon"
   homepage "https://github.com/fordz0/lattice"
-  version "0.1.13"
+  version "0.1.14"
   license "GPL-3.0-only"
 
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/fordz0/lattice/releases/download/lattice-v#{version}/lattice-macos-aarch64.tar.gz"
-      sha256 "0a5c7d7e0b2cc65c169bf4f837a32eb83886c2b8cfce06b06efe3bea22fd092e"
+      sha256 "c1fd35cec0773881e3cc6bdd6e542613bf0d1f48711b262d7dc5c3398850de4d"
     else
       url "https://github.com/fordz0/lattice/releases/download/lattice-v#{version}/lattice-macos-x86_64.tar.gz"
-      sha256 "4e324dda700f43d0f302b85c216feb5d299a4683d57c9ba6f399983bcda34cf9"
+      sha256 "cb282a39dce2ff84c49b82fc42ec913eb3292976523f17dc43035fd6caad499e"
     end
   end
 
