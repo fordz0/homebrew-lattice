@@ -8,10 +8,10 @@ class LatticeNet < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/fordz0/lattice/releases/download/lattice-v#{version}/lattice-macos-aarch64.tar.gz"
-      sha256 "86e696e1ce114ad307a4de3c15808a6051ec04bf5af627ac7882481ce7d47494"
+      sha256 "8d1a3164addc9e25d27e38ba33a310388a73a3676a3176c6fdc0917fcb654119"
     else
       url "https://github.com/fordz0/lattice/releases/download/lattice-v#{version}/lattice-macos-x86_64.tar.gz"
-      sha256 "b30fc7cc510a0631bc9cde834b5a1fd1a04be27b48e1aba8a5df47d5ef94eae5"
+      sha256 "5d07ce86fd774c10d6294fe2716818070f059ce3ff55b22503ef480d790a0fa1"
     end
   end
 
